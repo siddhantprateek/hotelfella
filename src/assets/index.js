@@ -1,0 +1,5 @@
+export { default as VIDEO } from './VIDEO.mp4'
+export { default as RESORT } from './RESORT.png'
+export { default as RESORT2 } from './RESORT-2.png'
+export { default as HEADERIMG } from './headerIMG.png'
+export { default as SearchIcon } from './Search-icon.png'
