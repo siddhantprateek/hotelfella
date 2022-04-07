@@ -1,0 +1,22 @@
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    justify-content: center;
+    height: 15rem;
+}
+
+.footer-left, .footer-right {
+    width: 15rem;
+    padding: 2rem;
+}
+
+footer li {
+    list-style: none;
+    line-height: 2rem;
+    cursor: pointer;
+}
+
+footer li:hover {
+    text-decoration: underline;
+}
