@@ -1,0 +1,31 @@
+
+.header-content-dark {
+    color: black;
+    display: flex;
+    padding: 0 2rem;
+    padding-bottom: 1rem;
+    justify-content: space-between;
+    border-bottom: 2px solid #000000;
+
+}
+.header-content-dark a {
+    text-decoration: none;
+    color: black;
+}
+.header-content-dark p {
+    font-size: 1.4rem;
+}
+
+.header-option-dark {
+    display: flex;
+}
+
+.header-option-dark {
+    list-style: none;
+}
+.header-option-dark li {
+    margin: 0 2rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
