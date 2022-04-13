@@ -27,7 +27,16 @@ router.get('/all', (req, res) => {
     })
 })
 
-router.delete('/delete/:id', (req, res))
+router.delete('/delete/:id', (req, res) => {
+    const id  = req.params.id
+    Model.findByIdAndDelete(id, (err, data) => {
+        if (err) {
+            res.send(err)
+        } else {
+            res.send(data)
+        }
+    })
+})
 
 
 module.exports = router
