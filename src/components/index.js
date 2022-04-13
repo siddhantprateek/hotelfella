@@ -3,3 +3,4 @@ export { default as HeaderDark } from './HeaderDark/HeaderDark.components'
 
 export { default as Footer } from './Footer/Footer.components'
 export { default as SearchBar } from './Searchbar/SearchBar.components'
+export { default as TourCard } from './TourCard/TourCard.components'

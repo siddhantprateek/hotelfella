@@ -1,0 +1,60 @@
+.tour-card {
+    height: 35rem;
+    width: 25rem;
+    background-color: #a8dadc;
+    margin: 1rem;
+}
+
+.carosal-section-1{
+    height: 20rem;
+    background-color: #1d3557;
+}
+.carosal-section-2{
+    height: 20rem;
+    background-color: #418af1;
+}
+
+.carosal-section-3{
+    height: 20rem;
+    background-color: #0cb675;
+}
+.carosal-section-4{
+    height: 20rem;
+    background-color: #f1b941;
+}
+.carosal-section-5{
+    height: 20rem;
+    background-color: #d4556a;
+}
+
+.package-name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem;
+}
+.package-time {
+    background-color: #2ec4b6;
+    padding: .2rem;
+    border-radius: 20px;
+}
+.activites {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #457b9d;
+    padding: .5rem;
+}
+
+.custom-tour {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem;
+    background-color: #f1faee;
+}
+
+.customize {
+    display: flex;
+    align-items: center;
+}
