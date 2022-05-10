@@ -1,6 +1,9 @@
 const mongoose = require('mongoose')
 const { Schema } = mongoose
 
+const ThumbNailsSchema = new Schema({
+    imgsrc: String 
+})
 
 const hotels = new Schema({
     title: String,

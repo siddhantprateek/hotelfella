@@ -39,4 +39,17 @@ router.delete('/delete/:id', (req, res) => {
 })
 
 
+router.get('/get/:id', (req, res) => {
+    const id = req.params.id
+
+    Model.find(id ,(err, data) => {
+        if (err){
+            res.send(err)
+        }else{
+            res.send(data)
+        }
+    })
+})
+
+
 module.exports = router
